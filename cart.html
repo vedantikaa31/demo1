@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Ved Online Shop</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              
+            <li><a href="indexshop.html">Home</a></li>
+              <li><a href="men.html">Men</a></li>
+              <li><a href="wom.html">Women</a></li>
+              <li><a href="kid.html">Kid</a></li>
+              <li><a href="ele.html">Electronics</a></li>
+              <li><a href="of.html">Offers</a></li>
+              <li><a href="fd.html">Feedback</a></li>
+              <li class="active"><a href="cart.html">Cart <span class="glyphicon glyphicon-shopping-cart"></span> </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="reg.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="log.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+      <div class="container">
+        <h2>My Cart</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    
+                    <th></th>
+                </tr>
+             </thead>
+             <tbody>
+         
+         <tr>
+            <td><img src="img/31.jpg" style="width: 80px; height: 80px;"></td>
+            <td>Shirt</td>
+            <td>799</td>
+            <td>1</td>
+            
+            <td><a href="buy.html" class="btn btn-primary">Buy Now</a>
+                <a href="buy.html" class="btn btn-danger">Remove</a>
+         </td>
+         </tr>
+            
+         <tr>
+            <td><img src="img/v4.jpg" style="width: 80px; height: 80px;"></td>
+            <td>Shirt</td>
+            <td>2199</td>
+            <td>1</td>
+           
+            <td><a href="buy.html" class="btn btn-primary">Buy Now</a>
+                <a href="buy.html" class="btn btn-danger">Remove</a>
+         </td>
+         </tr>
+            
+         <tr>
+            <td><img src="img/v44.jpg" style="width: 80px; height: 80px;"></td>
+            <td>Saree</td>
+            <td>1999</td>
+            <td>2</td>
+            
+            <td><a href="buy.html" class="btn btn-primary">Buy Now</a>
+                <a href="buy.html" class="btn btn-danger">Remove</a>
+         </td>
+         </tr>
+            
+         <tr class="active">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Total</td>
+            <td>899</td>
+            <td><a href="buy.html" class="btn btn-primary">Buy All</a></td>
+        </tr>
+        </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
